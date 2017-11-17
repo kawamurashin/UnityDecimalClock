@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a759aa-040a-4235-9995-fb7761e9f795" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.UnityDecimalClock/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.UnityDecimalClock/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Script/View/MianClock/Cricle.cs" afterPath="$PROJECT_DIR$/Assets/Script/View/MianClock/Cricle.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,18 +32,17 @@
       <file leaf-file-name="Cricle.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/View/MianClock/Cricle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="464">
+              <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
-                <marker date="1510906298311" expanded="true" signature="6:66" ph="..." />
-                <marker date="1510906298311" expanded="true" signature="99:4471" ph="{...}" />
-                <marker date="1510906298311" expanded="true" signature="146:4469" ph="{...}" />
-                <marker date="1510906298311" expanded="true" signature="295:2274" ph="{...}" />
-                <marker date="1510906298311" expanded="true" signature="592:677" ph="/* Material material = new Material(Shader.Find(&quot;Particles/Additive&quot;)); ... */" />
-                <marker date="1510906298311" expanded="true" signature="1096:2036" ph="{...}" />
-                <marker date="1510906298311" expanded="true" signature="2343:4369" ph="{...}" />
-                <marker date="1510906298311" expanded="true" signature="2366:4359" ph="/* var x = 0f; ... */" />
-                <marker date="1510906298311" expanded="true" signature="4443:4463" ph="{...}" />
+                <marker date="1510907187227" expanded="true" signature="6:66" ph="..." />
+                <marker date="1510907187227" expanded="true" signature="99:2465" ph="{...}" />
+                <marker date="1510907187227" expanded="true" signature="146:2463" ph="{...}" />
+                <marker date="1510907187227" expanded="true" signature="295:2274" ph="{...}" />
+                <marker date="1510907187227" expanded="true" signature="592:677" ph="/* Material material = new Material(Shader.Find(&quot;Particles/Additive&quot;)); ... */" />
+                <marker date="1510907187227" expanded="true" signature="1096:2036" ph="{...}" />
+                <marker date="1510907187227" expanded="true" signature="2343:2363" ph="{...}" />
+                <marker date="1510907187227" expanded="true" signature="2437:2457" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -84,63 +82,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilDraw2D.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/View/MianClock/Dail/UtilDraw2D.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="157" column="21" lean-forward="false" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-              <folding>
-                <marker date="1510794765757" expanded="false" signature="6:44" ph="..." />
-                <marker date="1510794765757" expanded="true" signature="85:7195" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="296:770" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="824:862" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="912:939" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="978:1145" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="1182:1204" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="1270:1306" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="1310:1377" ph="/* 太さのある線を描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="1426:1845" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="1467:1538" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="1849:1888" ph="/* 線群を描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="1931:2010" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="2014:2053" ph="/* 点線群を描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="2099:3074" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="2249:3071" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="2459:3067" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="2507:2572" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="2609:2851" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="2688:2793" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="2899:3000" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="3078:3145" ph="/* ポリゴン描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="3197:3482" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="3311:3467" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="3486:3552" ph="/* ライン描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="3603:3933" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="3644:3784" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="3936:4025" ph="/* ボックスの描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="4088:4539" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="4143:4188" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="4242:4287" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="4543:4637" ph="/* ボックスの塗りつぶし描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="4704:5072" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="4759:4804" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="4858:4903" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="5078:5178" ph="/* 円の塗りつぶし描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="5248:5790" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="5501:5775" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="5623:5743" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="5794:5889" ph="/* 円の描画. ... */" />
-                <marker date="1510794765757" expanded="true" signature="5955:6331" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="6170:6304" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="6444:6731" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="6799:7193" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="6991:7166" ph="{...}" />
-                <marker date="1510794765757" expanded="true" signature="7045:7162" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -154,7 +95,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/Controller/ControllerManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/View/MianClock/Dail/UtilDraw2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/View/MianClock/Cricle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Jp/Mztm/Kawamura/Time/DecimalTime.cs" root0="FORCE_HIGHLIGHTING" />
@@ -388,12 +328,12 @@
       <workItem from="1510726614589" duration="235000" />
       <workItem from="1510726863973" duration="4381000" />
       <workItem from="1510734364032" duration="24153000" />
-      <workItem from="1510905683906" duration="615000" />
+      <workItem from="1510905683906" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56262000" />
+    <option name="totallyTimeSpent" value="56907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,54 +790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="157" column="21" lean-forward="false" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-          <folding>
-            <marker date="1510794765757" expanded="false" signature="6:44" ph="..." />
-            <marker date="1510794765757" expanded="true" signature="85:7195" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="296:770" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="824:862" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="912:939" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="978:1145" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="1182:1204" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="1270:1306" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="1310:1377" ph="/* 太さのある線を描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="1426:1845" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="1467:1538" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="1849:1888" ph="/* 線群を描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="1931:2010" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="2014:2053" ph="/* 点線群を描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="2099:3074" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="2249:3071" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="2459:3067" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="2507:2572" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="2609:2851" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="2688:2793" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="2899:3000" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="3078:3145" ph="/* ポリゴン描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="3197:3482" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="3311:3467" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="3486:3552" ph="/* ライン描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="3603:3933" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="3644:3784" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="3936:4025" ph="/* ボックスの描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="4088:4539" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="4143:4188" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="4242:4287" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="4543:4637" ph="/* ボックスの塗りつぶし描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="4704:5072" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="4759:4804" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="4858:4903" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="5078:5178" ph="/* 円の塗りつぶし描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="5248:5790" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="5501:5775" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="5623:5743" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="5794:5889" ph="/* 円の描画. ... */" />
-            <marker date="1510794765757" expanded="true" signature="5955:6331" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="6170:6304" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="6444:6731" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="6799:7193" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="6991:7166" ph="{...}" />
-            <marker date="1510794765757" expanded="true" signature="7045:7162" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,18 +812,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/View/MianClock/Cricle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="464">
+          <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
           <folding>
-            <marker date="1510906298311" expanded="true" signature="6:66" ph="..." />
-            <marker date="1510906298311" expanded="true" signature="99:4471" ph="{...}" />
-            <marker date="1510906298311" expanded="true" signature="146:4469" ph="{...}" />
-            <marker date="1510906298311" expanded="true" signature="295:2274" ph="{...}" />
-            <marker date="1510906298311" expanded="true" signature="592:677" ph="/* Material material = new Material(Shader.Find(&quot;Particles/Additive&quot;)); ... */" />
-            <marker date="1510906298311" expanded="true" signature="1096:2036" ph="{...}" />
-            <marker date="1510906298311" expanded="true" signature="2343:4369" ph="{...}" />
-            <marker date="1510906298311" expanded="true" signature="2366:4359" ph="/* var x = 0f; ... */" />
-            <marker date="1510906298311" expanded="true" signature="4443:4463" ph="{...}" />
+            <marker date="1510907187227" expanded="true" signature="6:66" ph="..." />
+            <marker date="1510907187227" expanded="true" signature="99:2465" ph="{...}" />
+            <marker date="1510907187227" expanded="true" signature="146:2463" ph="{...}" />
+            <marker date="1510907187227" expanded="true" signature="295:2274" ph="{...}" />
+            <marker date="1510907187227" expanded="true" signature="592:677" ph="/* Material material = new Material(Shader.Find(&quot;Particles/Additive&quot;)); ... */" />
+            <marker date="1510907187227" expanded="true" signature="1096:2036" ph="{...}" />
+            <marker date="1510907187227" expanded="true" signature="2343:2363" ph="{...}" />
+            <marker date="1510907187227" expanded="true" signature="2437:2457" ph="{...}" />
           </folding>
         </state>
       </provider>
