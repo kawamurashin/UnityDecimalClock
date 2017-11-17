@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Script.View.MianClock
 {
-    public class Circle : MonoBehaviour
+    public class PaintCircle : MonoBehaviour
     {
         private static readonly Color DEFOULT_COLOR = Color.white;
 

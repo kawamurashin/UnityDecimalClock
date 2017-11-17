@@ -4,7 +4,8 @@ using UnityEngine.UI;
 
 namespace Script.View.MianClock.Dail
 {
-	public class DialManager : MonoBehaviour {
+	public class DialManager : MonoBehaviour 
+	{
 
 		// Use this for initialization
 		private void Start ()
