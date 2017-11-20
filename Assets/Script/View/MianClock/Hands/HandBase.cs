@@ -17,7 +17,6 @@ namespace Script.View.MianClock.Hands
 			if ( preTheta  < _targetTheta)
 			{
 				_currentTheta += 360;
-				Debug.Log("hoge");
 			}
 		}
 
