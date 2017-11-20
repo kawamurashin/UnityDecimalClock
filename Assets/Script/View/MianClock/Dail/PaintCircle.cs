@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Script.View.MianClock
+namespace Script.View.MianClock.Dail
 {
     public class PaintCircle : MonoBehaviour
     {

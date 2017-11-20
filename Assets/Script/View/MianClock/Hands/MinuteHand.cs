@@ -7,7 +7,7 @@ namespace Script.View.MianClock.Hands
     public class MinuteHand : HandBase
     {
 
-        
+        /*
         public float Minute
         {
             set
@@ -15,14 +15,10 @@ namespace Script.View.MianClock.Hands
                 TargetTheta = -1 * value * 360f / 100f;
             }
         }
+        */
 
-        public void SetMinute(int value)
-        {
-            Minute = value;
-            CurrentTheata = TargetTheta;
 
-        }
-
+/*
         protected override void Update()
         {
             var aTheta = TargetTheta - CurrentTheata;
@@ -30,6 +26,7 @@ namespace Script.View.MianClock.Hands
             CurrentTheata += vTheta;
             transform.rotation =  Quaternion.Euler(0, 0, CurrentTheata);
         }
+        */
 
         protected override void Start()
         {

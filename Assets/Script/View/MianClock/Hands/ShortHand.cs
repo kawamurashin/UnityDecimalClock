@@ -6,13 +6,7 @@ using UnityEngine.UI;
 
 public class ShortHand : HandBase {
 	
-	public float Hours
-	{
-		set
-		{
-			TargetTheta = -1 * value * 360f / 10f;
-		}
-	}
+
 	
 
 	// Use this for initialization

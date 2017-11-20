@@ -21,16 +21,16 @@ namespace Script.View.MianClock.Dail
 			radius = 130f;
 			
 			obj = new GameObject("Circle");
-			Circle circle = obj.AddComponent<Circle>();
+			PaintCircle circle = obj.AddComponent<PaintCircle>();
 			obj.transform.parent = this.transform;
-			circle.Draw(130f,Color.white);
+			circle.Draw(130f,new Color(0.9f,0.9f,0.9f));
 			
 			
 			obj = new GameObject("CircleLine");
 			LineRenderer lineRenderer = obj.AddComponent<LineRenderer>();
 			lineRenderer.material = new Material(Shader.Find("Particles/Additive"));
 			lineRenderer.SetWidth(10f,10f);
-			lineRenderer.SetColors(Color.red, Color.black);
+			lineRenderer.SetColors(new Color(0,0,0), Color.red);
 			// 頂点を設定
 			n = 144;
 			// 頂点の数
@@ -69,11 +69,8 @@ namespace Script.View.MianClock.Dail
 				tf.rectTransform.sizeDelta = vector;
 
 			}
-			
-
-
 		}
-	
+
 		// Update is called once per frame
 		private void Update () {
 		

@@ -57,9 +57,8 @@
     <Compile Include="Assets\Script\Jp\Mztm\Kawamura\Utilities\Utility.cs" />
     <Compile Include="Assets\Script\Main.cs" />
     <Compile Include="Assets\Script\Model\ModelManager.cs" />
-    <Compile Include="Assets\Script\View\MianClock\Cricle.cs" />
     <Compile Include="Assets\Script\View\MianClock\Dail\DialManager.cs" />
-    <Compile Include="Assets\Script\View\MianClock\Dail\UtilDraw2D.cs" />
+    <Compile Include="Assets\Script\View\MianClock\Dail\PaintCircle.cs" />
     <Compile Include="Assets\Script\View\MianClock\Hands\HandBase.cs" />
     <Compile Include="Assets\Script\View\MianClock\Hands\MinuteHand.cs" />
     <Compile Include="Assets\Script\View\MianClock\Hands\SecondHand.cs" />

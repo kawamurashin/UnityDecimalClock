@@ -7,25 +7,9 @@ public class SecondHand : HandBase
 {
 	private float _second = 0;
 
-	public float Second
-	{
-		set
-		{
-			var preTargetTheta = TargetTheta;
-			TargetTheta = -1 * value * 360f / 100f;
-			if (preTargetTheta < TargetTheta)
-			{
-				CurrentTheata += 360;
-			}
-		}
-	}
-	
-	public void SetSecond(int value)
-	{
-		Second = value;
-		CurrentTheata = TargetTheta;
 
-	}
+	
+/*
 	protected override void Update()
 	{
 		var aTheta = TargetTheta - CurrentTheata;
@@ -34,7 +18,7 @@ public class SecondHand : HandBase
 		transform.rotation =  Quaternion.Euler(0, 0, CurrentTheata);
 
 	}
-
+*/
 	// Use this for initialization
 	void Start () {
 

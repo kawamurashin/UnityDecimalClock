@@ -35,10 +35,9 @@
           </e>
           <e p="View" t="Include">
             <e p="MianClock" t="Include">
-              <e p="Cricle.cs" t="Include" />
               <e p="Dail" t="Include">
                 <e p="DialManager.cs" t="Include" />
-                <e p="UtilDraw2D.cs" t="Include" />
+                <e p="PaintCircle.cs" t="Include" />
               </e>
               <e p="Hands" t="Include">
                 <e p="HandBase.cs" t="Include" />

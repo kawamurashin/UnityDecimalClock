@@ -98,6 +98,7 @@ namespace Script.Jp.Mztm.Kawamura.Time
             var str = _dateTime.Month + "/" + _dateTime.Day + "/" + _dateTime.Year +" "+ _decimalHour+":" + Utilities.PlusZero(_decimalMinute) + ":" + Utilities.PlusZero(_decimalSecond);
             return str;
         }
+
         
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Script.View.MianClock;
-using Script.View.MianClock.Dail;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Script.View
 {
@@ -23,6 +23,7 @@ namespace Script.View
             obj = new GameObject("MainClockManager");
             obj.AddComponent<MainClockManager>();
             obj.transform.parent = canvasObj.transform;
+            
         }
 
         // Update is called once per frame
