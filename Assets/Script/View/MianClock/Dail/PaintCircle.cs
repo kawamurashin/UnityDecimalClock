@@ -1,13 +1,20 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 namespace Script.View.MianClock.Dail
 {
     public class PaintCircle : MonoBehaviour
     {
-        private static readonly Color DEFOULT_COLOR = Color.white;
 
         public void Draw(float radius = 10f, Color color = default(Color))
         {
+
+            var obj = new GameObject("Circle");
+            DynamicMeshWithUGUI graphic = obj.AddComponent<DynamicMeshWithUGUI>();
+            obj.transform.parent = this.transform;
+            //graphic.Draw();
+            
+            /*
             var x = 0f;
             var y = 0f;
             var z = 0f;
@@ -18,7 +25,7 @@ namespace Script.View.MianClock.Dail
             var obj = new GameObject("circle");
             obj.transform.parent = this.transform;
             //
-            //Material material = new Material(Shader.Find("Particles/Additive"));
+
             Material material = new Material(Shader.Find("Sprites/Default"));
             material.SetColor("_Color", color);
             var renderer = obj.AddComponent<MeshRenderer>();
@@ -62,6 +69,7 @@ namespace Script.View.MianClock.Dail
             //
             var filter = obj.AddComponent<MeshFilter>();
             filter.sharedMesh = mesh;
+            */
         }
 
         // Use this for initialization

@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 namespace Script.View.MianClock.Dail
 {
@@ -18,6 +19,7 @@ namespace Script.View.MianClock.Dail
 			float theta;
 			GameObject obj;
 			//
+			/**/
 			radius = 130f;
 			
 			obj = new GameObject("Circle");
@@ -26,11 +28,13 @@ namespace Script.View.MianClock.Dail
 			circle.Draw(130f,new Color(0.9f,0.9f,0.9f));
 			
 			
+			
+			/*
 			obj = new GameObject("CircleLine");
 			LineRenderer lineRenderer = obj.AddComponent<LineRenderer>();
 			lineRenderer.material = new Material(Shader.Find("Particles/Additive"));
 			lineRenderer.SetWidth(10f,10f);
-			lineRenderer.SetColors(new Color(0,0,0), Color.red);
+			lineRenderer.SetColors(Color.black, Color.black);
 			// 頂点を設定
 			n = 144;
 			// 頂点の数
@@ -42,10 +46,11 @@ namespace Script.View.MianClock.Dail
 				y = radius * Mathf.Sin(theta);
 				var vector = new Vector3(x,y,0);
 				lineRenderer.SetPosition(i, vector);
-			}
+			}*/
 
 			//
-			obj.transform.SetParent(this.transform);
+			//obj.transform.SetParent(this.transform);
+			//obj.transform.parent = this.transform;
 			
 			radius = 100f;
 			n = 10;
